@@ -53,3 +53,5 @@ The canopy pipeline uses the relocated image tree when `BERRYYIELD_GNV_ROOT=$PWD
 - `Jing-2026-1110-yield prediction new data-revised.pdf`: final report.
 
 The GitHub checkout includes code and compact processed results. Large original files and fitted model bundles live in the Hugging Face dataset. The 2024–25 season is excluded from this study.
+
+`environment_versions.json` records the software versions used for the completed model analysis. The canopy pipeline additionally installs Meta's Segment Anything package from its official repository through `requirements.txt`.

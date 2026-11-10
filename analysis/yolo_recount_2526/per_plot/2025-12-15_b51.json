@@ -1,0 +1,85 @@
+{
+  "season": "2526",
+  "date": "2025-12-15",
+  "plot": "b51",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-12-15/b51.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B51",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 3,
+  "selected_image_count": 3,
+  "missing_images": [],
+  "counts": {
+    "FL": 0,
+    "G": 0,
+    "W": 0,
+    "P": 0,
+    "R": 1
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B51/RGB_20251215_b5_1118.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.4466269314289093,
+      "bbox_xyxy": [
+        758.2943115234375,
+        670.5863037109375,
+        796.6942138671875,
+        713.4097900390625
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B51/RGB_20251215_b5_1118.jpg",
+      "detection_index": 1,
+      "feature": "R",
+      "confidence": 0.31367412209510803,
+      "bbox_xyxy": [
+        829.1373901367188,
+        443.86407470703125,
+        861.0296020507812,
+        491.17425537109375
+      ],
+      "matched_plant_ids": [
+        "s00_t00003"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B51/RGB_20251215_b5_1129.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.4285157024860382,
+      "bbox_xyxy": [
+        693.5635375976562,
+        107.29489135742188,
+        730.2359008789062,
+        145.58184814453125
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B51/RGB_20251215_b5_1131.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.26469185948371887,
+      "bbox_xyxy": [
+        517.486083984375,
+        600.44189453125,
+        569.94287109375,
+        645.762451171875
+      ],
+      "matched_plant_ids": []
+    }
+  ]
+}

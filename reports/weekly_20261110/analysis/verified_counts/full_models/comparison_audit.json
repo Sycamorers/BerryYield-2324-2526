@@ -1,0 +1,43 @@
+{
+  "models": 12,
+  "feature_sets": 6,
+  "count_sources": [
+    "manual",
+    "yolo"
+  ],
+  "horizons_weeks": [
+    1,
+    2,
+    3
+  ],
+  "evaluation_settings": [
+    "2324_to_2526",
+    "2526_to_2324",
+    "within_2324",
+    "within_2526"
+  ],
+  "predictive_features": [
+    "FL",
+    "G",
+    "W",
+    "P",
+    "canopy_size_pixels",
+    "mean_roundness"
+  ],
+  "mature_red_and_plant_tracks_excluded_from_predictors": true,
+  "same_sample_ids": true,
+  "same_yield_targets": true,
+  "same_harvest_dates": true,
+  "same_n_by_comparison": true,
+  "same_target_date_count_by_comparison": true,
+  "maximum_MAE_difference_for_count_independent_inputs": 0.0,
+  "same_n_by_phase_comparison": true,
+  "same_n_by_matched_phase_fit": true,
+  "primary_metric_rows": 1584,
+  "paired_metric_rows": 792,
+  "all_model_metric_rows": 2448,
+  "all_phase_metric_rows": 6048,
+  "paired_phase_metric_rows": 3024,
+  "matched_phase_metric_rows": 4608,
+  "interpretation": "Fixed settings, no test tuning; all best-model ranks are descriptive after inspection."
+}

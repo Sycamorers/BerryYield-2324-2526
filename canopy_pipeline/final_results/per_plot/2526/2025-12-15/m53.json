@@ -1,0 +1,55 @@
+{
+  "status": "complete",
+  "season": "2526",
+  "date": "2025-12-15",
+  "plot": "m53",
+  "source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M53",
+  "source_frame_count": 19,
+  "source_segment_count": 1,
+  "plant_count": 2,
+  "canopy_size_pixels": 44927,
+  "mean_roundness": 0.42821822387837294,
+  "roundness_definition": "4*pi*mask_area/(full_contour_perimeter^2)",
+  "mask_directory": "/mnt/SB2324/data/GNV/2324_GNV_data/canopy_tracking_sam_masks_3years/2526/2025-12-15/m53",
+  "elapsed_seconds": 0.4691552009899169,
+  "plants": [
+    {
+      "plant_id": "s00_t00004",
+      "segment_index": 0,
+      "raw_track_id": 4,
+      "track_length": 4,
+      "representative_image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M53/RGB_20251215_m5_891.jpg",
+      "representative_frame_index": 9,
+      "detection_confidence": 0.5900123715400696,
+      "bbox_xyxy": [
+        683.3666381835938,
+        332.9737854003906,
+        875.6660766601562,
+        554.443359375
+      ],
+      "mask_path": "/mnt/SB2324/data/GNV/2324_GNV_data/canopy_tracking_sam_masks_3years/2526/2025-12-15/m53/plant_s00_t00004_frame_000009.png",
+      "canopy_size_pixels": 16581,
+      "perimeter_pixels": 678.156415939331,
+      "roundness": 0.45306533381299713
+    },
+    {
+      "plant_id": "s00_t00006",
+      "segment_index": 0,
+      "raw_track_id": 6,
+      "track_length": 3,
+      "representative_image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M53/RGB_20251215_m5_895.jpg",
+      "representative_frame_index": 13,
+      "detection_confidence": 0.8190048336982727,
+      "bbox_xyxy": [
+        641.3142700195312,
+        227.85043334960938,
+        865.3963623046875,
+        479.3124084472656
+      ],
+      "mask_path": "/mnt/SB2324/data/GNV/2324_GNV_data/canopy_tracking_sam_masks_3years/2526/2025-12-15/m53/plant_s00_t00006_frame_000013.png",
+      "canopy_size_pixels": 28346,
+      "perimeter_pixels": 939.7199051380157,
+      "roundness": 0.4033711139437487
+    }
+  ]
+}

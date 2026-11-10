@@ -1,0 +1,176 @@
+{
+  "status": "passed",
+  "review_method": "Independent NumPy recomputation and sample/fit audit; does not call runner metric or sample-building helpers",
+  "prediction_rows": 357750,
+  "fit_batches": 258,
+  "checks": {
+    "only_2324_2526_data": {
+      "passed": true
+    },
+    "exactly_15_expected_models": {
+      "passed": true
+    },
+    "exactly_six_feature_sets": {
+      "passed": true
+    },
+    "no_duplicate_prediction_keys": {
+      "passed": true
+    },
+    "predictions_finite_nonnegative": {
+      "passed": true
+    },
+    "yield_targets_unchanged": {
+      "passed": true
+    },
+    "strictly_future_targets": {
+      "passed": true
+    },
+    "source_and_code_hashes_match": {
+      "passed": true,
+      "details": 14
+    },
+    "no_2425_source_paths": {
+      "passed": true
+    },
+    "yields_match_original_csv_and_workbook_cells": {
+      "passed": true,
+      "details": 800
+    },
+    "manual_counts_match_original_csv_and_workbook_cells_including_blanks": {
+      "passed": true,
+      "details": 1040
+    },
+    "all_three_step_histories_use_only_available_observations": {
+      "passed": true,
+      "details": 1644
+    },
+    "target_dates_are_nearest_within_two_days": {
+      "passed": true,
+      "details": 1644
+    },
+    "phase_assignment_matches_fixed_harvest_date_thirds": {
+      "passed": true,
+      "details": 1644
+    },
+    "fit_ids_counts_and_disjoint_samples": {
+      "passed": true,
+      "details": 258
+    },
+    "within_training_labels_strictly_precede_origin": {
+      "passed": true,
+      "details": 126
+    },
+    "cross_training_uses_correct_held_out_season_in_both_directions": {
+      "passed": true,
+      "details": 132
+    },
+    "phase_specific_training_uses_only_matching_phase": {
+      "passed": true,
+      "details": 96
+    },
+    "all_fit_predictions_match_audited_test_ids": {
+      "passed": true,
+      "details": 258
+    },
+    "all_baselines_equal_training_only_statistics": {
+      "passed": true,
+      "details": 774
+    },
+    "all_models_and_feature_sets_share_identical_test_samples": {
+      "passed": true,
+      "details": 17
+    },
+    "MAE_RMSE_R2_bias_independently_recomputed": {
+      "passed": true,
+      "details": [
+        {
+          "file": "metrics.csv",
+          "groups": 1530,
+          "passed": true,
+          "max_absolute_differences": {
+            "MAE": 3.637978807091713e-12,
+            "RMSE": 4.547473508864641e-13,
+            "R2": 3.637978807091713e-12,
+            "Bias": 3.637978807091713e-12
+          }
+        },
+        {
+          "file": "stage_metrics.csv",
+          "groups": 3780,
+          "passed": true,
+          "max_absolute_differences": {
+            "MAE": 3.637978807091713e-12,
+            "RMSE": 7.275957614183426e-12,
+            "R2": 7.275957614183426e-12,
+            "Bias": 3.637978807091713e-12
+          }
+        }
+      ]
+    },
+    "neural_predictions_equal_three_clipped_seed_mean": {
+      "passed": true,
+      "details": 71550
+    },
+    "within_coverage_exactly_matches_chronological_feasibility": {
+      "passed": true,
+      "details": [
+        {
+          "season": "2324",
+          "horizon_weeks": 1,
+          "eligible_test_pairs": 159,
+          "exported_test_pairs": 159,
+          "equal": true
+        },
+        {
+          "season": "2324",
+          "horizon_weeks": 2,
+          "eligible_test_pairs": 80,
+          "exported_test_pairs": 80,
+          "equal": true
+        },
+        {
+          "season": "2324",
+          "horizon_weeks": 3,
+          "eligible_test_pairs": 0,
+          "exported_test_pairs": 0,
+          "equal": true
+        },
+        {
+          "season": "2526",
+          "horizon_weeks": 1,
+          "eligible_test_pairs": 184,
+          "exported_test_pairs": 184,
+          "equal": true
+        },
+        {
+          "season": "2526",
+          "horizon_weeks": 2,
+          "eligible_test_pairs": 184,
+          "exported_test_pairs": 184,
+          "equal": true
+        },
+        {
+          "season": "2526",
+          "horizon_weeks": 3,
+          "eligible_test_pairs": 200,
+          "exported_test_pairs": 200,
+          "equal": true
+        }
+      ]
+    },
+    "within_2324_h3_explicitly_unavailable": {
+      "passed": true,
+      "details": 30
+    }
+  },
+  "issues": [],
+  "interpretation_notes": [
+    "Reverse 2526 to 2324 is retrospective season generalization, not chronological deployment",
+    "Calendar phases use thirds of observed target harvest dates and are retrospective, not measured phenology",
+    "Manual fruit/flower counts are harmonized across both seasons; tracked plant count is not ground-truth census",
+    "Current experiment ranks are descriptive test outcomes; they are not untouched validation after selecting the best method",
+    "Complete cases provide equal input comparisons; canopy-only coverage in this benchmark is intentionally restricted to shared available count dates",
+    "Irregular histories use the latest three observations, not three equally spaced weeks",
+    "The original images and masks are unavailable; per-plant metadata consistency does not establish segmentation accuracy"
+  ]
+}

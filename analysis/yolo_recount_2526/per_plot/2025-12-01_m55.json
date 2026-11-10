@@ -1,0 +1,457 @@
+{
+  "season": "2526",
+  "date": "2025-12-01",
+  "plot": "m55",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-12-01/m55.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 7,
+  "selected_image_count": 7,
+  "missing_images": [],
+  "counts": {
+    "FL": 0,
+    "G": 5,
+    "W": 0,
+    "P": 0,
+    "R": 0
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_151.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.6821086406707764,
+      "bbox_xyxy": [
+        506.4388122558594,
+        19.71630096435547,
+        546.5072021484375,
+        63.255592346191406
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_151.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.5960928797721863,
+      "bbox_xyxy": [
+        513.6119995117188,
+        597.1797485351562,
+        547.8997192382812,
+        630.6691284179688
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_151.jpg",
+      "detection_index": 2,
+      "feature": "G",
+      "confidence": 0.5621513724327087,
+      "bbox_xyxy": [
+        600.4217529296875,
+        41.51316833496094,
+        627.7601318359375,
+        75.37298583984375
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_151.jpg",
+      "detection_index": 3,
+      "feature": "G",
+      "confidence": 0.46993812918663025,
+      "bbox_xyxy": [
+        679.1609497070312,
+        0.0,
+        709.2484741210938,
+        25.669612884521484
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_154.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.6657219529151917,
+      "bbox_xyxy": [
+        508.25,
+        134.3146209716797,
+        544.282470703125,
+        175.5319061279297
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_154.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.6483049988746643,
+      "bbox_xyxy": [
+        675.3299560546875,
+        94.34678649902344,
+        708.407958984375,
+        133.8033905029297
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_154.jpg",
+      "detection_index": 2,
+      "feature": "G",
+      "confidence": 0.5557050704956055,
+      "bbox_xyxy": [
+        601.16650390625,
+        150.37506103515625,
+        627.040283203125,
+        182.234130859375
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_157.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.6621814966201782,
+      "bbox_xyxy": [
+        677.0330200195312,
+        205.89895629882812,
+        706.8754272460938,
+        240.042724609375
+      ],
+      "matched_plant_ids": [
+        "s00_t00006"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_157.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.6620609164237976,
+      "bbox_xyxy": [
+        511.274169921875,
+        246.87725830078125,
+        544.8585205078125,
+        285.66485595703125
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_157.jpg",
+      "detection_index": 2,
+      "feature": "G",
+      "confidence": 0.6418495774269104,
+      "bbox_xyxy": [
+        601.524658203125,
+        256.48541259765625,
+        626.705810546875,
+        286.09783935546875
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_157.jpg",
+      "detection_index": 3,
+      "feature": "G",
+      "confidence": 0.5220844149589539,
+      "bbox_xyxy": [
+        449.17864990234375,
+        86.70303344726562,
+        484.52972412109375,
+        128.14453125
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_159.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.6807447671890259,
+      "bbox_xyxy": [
+        512.765380859375,
+        320.00030517578125,
+        549.26708984375,
+        363.27239990234375
+      ],
+      "matched_plant_ids": [
+        "s00_t00005"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_159.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.6070329546928406,
+      "bbox_xyxy": [
+        679.58056640625,
+        276.1815490722656,
+        709.93798828125,
+        312.3330993652344
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_159.jpg",
+      "detection_index": 2,
+      "feature": "G",
+      "confidence": 0.5453301668167114,
+      "bbox_xyxy": [
+        454.0760803222656,
+        162.48899841308594,
+        484.7130432128906,
+        201.12998962402344
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_159.jpg",
+      "detection_index": 3,
+      "feature": "G",
+      "confidence": 0.5257088541984558,
+      "bbox_xyxy": [
+        603.4287109375,
+        326.47894287109375,
+        630.275390625,
+        359.02691650390625
+      ],
+      "matched_plant_ids": [
+        "s00_t00005"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_164.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.612255334854126,
+      "bbox_xyxy": [
+        681.0587158203125,
+        462.95867919921875,
+        710.5501708984375,
+        495.08441162109375
+      ],
+      "matched_plant_ids": [
+        "s00_t00002"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_164.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.6120019555091858,
+      "bbox_xyxy": [
+        515.4274291992188,
+        506.01617431640625,
+        549.7227172851562,
+        549.6765747070312
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_164.jpg",
+      "detection_index": 2,
+      "feature": "G",
+      "confidence": 0.6073639392852783,
+      "bbox_xyxy": [
+        602.6593017578125,
+        502.2877197265625,
+        632.5894775390625,
+        541.8028564453125
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_164.jpg",
+      "detection_index": 3,
+      "feature": "G",
+      "confidence": 0.5893254280090332,
+      "bbox_xyxy": [
+        456.34674072265625,
+        345.682861328125,
+        487.28729248046875,
+        382.9481201171875
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_166.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.6342498064041138,
+      "bbox_xyxy": [
+        456.0769348144531,
+        425.81683349609375,
+        485.0191955566406,
+        459.29815673828125
+      ],
+      "matched_plant_ids": [
+        "s00_t00007"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_166.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.6180114150047302,
+      "bbox_xyxy": [
+        601.76708984375,
+        577.601318359375,
+        628.297119140625,
+        611.72998046875
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_166.jpg",
+      "detection_index": 2,
+      "feature": "G",
+      "confidence": 0.4546818733215332,
+      "bbox_xyxy": [
+        680.5528564453125,
+        545.229736328125,
+        705.892578125,
+        571.912353515625
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_166.jpg",
+      "detection_index": 3,
+      "feature": "G",
+      "confidence": 0.3198726177215576,
+      "bbox_xyxy": [
+        514.629150390625,
+        587.39892578125,
+        543.31591796875,
+        625.18603515625
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_171.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.6907626390457153,
+      "bbox_xyxy": [
+        858.3504638671875,
+        177.0145721435547,
+        884.92138671875,
+        209.18885803222656
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_171.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.6729742884635925,
+      "bbox_xyxy": [
+        886.410888671875,
+        117.81271362304688,
+        918.537109375,
+        146.62747192382812
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_171.jpg",
+      "detection_index": 2,
+      "feature": "G",
+      "confidence": 0.6472122669219971,
+      "bbox_xyxy": [
+        890.9656372070312,
+        96.76253509521484,
+        917.8676147460938,
+        115.38308715820312
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_171.jpg",
+      "detection_index": 3,
+      "feature": "G",
+      "confidence": 0.6116414070129395,
+      "bbox_xyxy": [
+        480.85321044921875,
+        26.110599517822266,
+        510.45318603515625,
+        56.599029541015625
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_171.jpg",
+      "detection_index": 4,
+      "feature": "G",
+      "confidence": 0.5884889960289001,
+      "bbox_xyxy": [
+        445.13018798828125,
+        608.5459594726562,
+        476.39678955078125,
+        643.8705444335938
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_171.jpg",
+      "detection_index": 5,
+      "feature": "G",
+      "confidence": 0.5778003931045532,
+      "bbox_xyxy": [
+        877.7254028320312,
+        147.26351928710938,
+        900.1353149414062,
+        167.32778930664062
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_171.jpg",
+      "detection_index": 6,
+      "feature": "G",
+      "confidence": 0.5651056170463562,
+      "bbox_xyxy": [
+        890.00537109375,
+        67.71620178222656,
+        921.502685546875,
+        96.15007019042969
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_171.jpg",
+      "detection_index": 7,
+      "feature": "G",
+      "confidence": 0.5314423441886902,
+      "bbox_xyxy": [
+        529.42138671875,
+        50.65080261230469,
+        557.910888671875,
+        87.283203125
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251201/RGB_20251201_M55/RGB_20251201_m5_171.jpg",
+      "detection_index": 8,
+      "feature": "FL",
+      "confidence": 0.3528785705566406,
+      "bbox_xyxy": [
+        804.4010009765625,
+        51.50996398925781,
+        828.7354736328125,
+        79.06175231933594
+      ],
+      "matched_plant_ids": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "season": "2526",
+  "date": "2025-11-10",
+  "plot": "b15",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-11-10/b15.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B15",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 10,
+  "selected_image_count": 3,
+  "missing_images": [],
+  "counts": {
+    "FL": 0,
+    "G": 6,
+    "W": 1,
+    "P": 0,
+    "R": 0
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B15/RGB_20251110_b1_1407.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.37534084916114807,
+      "bbox_xyxy": [
+        714.7093505859375,
+        12.104660034179688,
+        745.8192138671875,
+        49.509674072265625
+      ],
+      "matched_plant_ids": [
+        "s00_t00002",
+        "s00_t00003",
+        "s00_t00005",
+        "s00_t00006",
+        "s00_t00007",
+        "s00_t00008"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B15/RGB_20251110_b1_1408.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.29947739839553833,
+      "bbox_xyxy": [
+        18.918006896972656,
+        460.99456787109375,
+        69.45242309570312,
+        509.02685546875
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B15/RGB_20251110_b1_1421.jpg",
+      "detection_index": 0,
+      "feature": "W",
+      "confidence": 0.36327555775642395,
+      "bbox_xyxy": [
+        23.51719856262207,
+        460.8017578125,
+        72.642578125,
+        512.5033569335938
+      ],
+      "matched_plant_ids": [
+        "s00_t00004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "season": "2526",
+  "date": "2025-11-03",
+  "plot": "b14",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-11-03/b14.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B14",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 12,
+  "selected_image_count": 11,
+  "missing_images": [],
+  "counts": {
+    "FL": 0,
+    "G": 1,
+    "W": 0,
+    "P": 0,
+    "R": 0
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B14/RGB_20251103_B14_124.jpg",
+      "detection_index": 0,
+      "feature": "FL",
+      "confidence": 0.2739461064338684,
+      "bbox_xyxy": [
+        793.0894775390625,
+        515.0875854492188,
+        819.1488037109375,
+        545.2212524414062
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B14/RGB_20251103_B14_141.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.48351389169692993,
+      "bbox_xyxy": [
+        0.6351776123046875,
+        643.9884033203125,
+        70.4097671508789,
+        720.0
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B14/RGB_20251103_B14_141.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.2568517327308655,
+      "bbox_xyxy": [
+        739.98291015625,
+        322.07379150390625,
+        768.197509765625,
+        347.24859619140625
+      ],
+      "matched_plant_ids": [
+        "s00_t00025"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B14/RGB_20251103_B14_163.jpg",
+      "detection_index": 0,
+      "feature": "FL",
+      "confidence": 0.3080395758152008,
+      "bbox_xyxy": [
+        803.5118408203125,
+        5.758556365966797,
+        830.13916015625,
+        32.34701919555664
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B14/RGB_20251103_B14_179.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.3401477336883545,
+      "bbox_xyxy": [
+        0.0,
+        642.881591796875,
+        45.18064880371094,
+        719.7471923828125
+      ],
+      "matched_plant_ids": []
+    }
+  ]
+}

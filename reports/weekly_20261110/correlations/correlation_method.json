@@ -1,0 +1,12 @@
+{
+  "sample_source": "reports/weekly_20261110/analysis/samples.csv",
+  "sample_sha256": "aaf6617eea52ec80bca6c5e45a184634cac1814839339f79d02c71479cf81049",
+  "feature_timing": "Current measurement at forecast origin; no future feature values",
+  "target": "Observed future harvest yield (g/plot), matched within +/-2 days of 1/2/3 calendar weeks",
+  "phases": "Fixed thirds of each season's observed harvest-date schedule; target-harvest phase",
+  "raw_associations": "Pearson and Spearman over plot-harvest pairs; pairwise complete observations",
+  "within_date_associations": "Demean feature and yield within each target harvest date, then calculate Pearson r",
+  "date_mean_associations": "Pearson r over mean feature/yield per target harvest date; NA with fewer than 3 dates",
+  "inference": "Descriptive only. Repeated plots and few dates preclude treating raw row count as independent replication; no p-value claims",
+  "red_policy": "Current red-fruit count included only as a descriptive correlation feature; not a primary predictor"
+}

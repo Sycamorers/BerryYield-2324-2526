@@ -1,0 +1,145 @@
+{
+  "season": "2526",
+  "date": "2025-11-10",
+  "plot": "b43",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-11-10/b43.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B43",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 15,
+  "selected_image_count": 6,
+  "missing_images": [],
+  "counts": {
+    "FL": 1,
+    "G": 4,
+    "W": 0,
+    "P": 0,
+    "R": 0
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B43/RGB_20251110_b4_1072.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.37119561433792114,
+      "bbox_xyxy": [
+        667.7890625,
+        231.29751586914062,
+        703.845703125,
+        265.2457580566406
+      ],
+      "matched_plant_ids": [
+        "s00_t00001"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B43/RGB_20251110_b4_1072.jpg",
+      "detection_index": 1,
+      "feature": "FL",
+      "confidence": 0.32768866419792175,
+      "bbox_xyxy": [
+        667.9530639648438,
+        205.29714965820312,
+        701.8705444335938,
+        230.52078247070312
+      ],
+      "matched_plant_ids": [
+        "s00_t00001"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B43/RGB_20251110_b4_1072.jpg",
+      "detection_index": 2,
+      "feature": "G",
+      "confidence": 0.2560354471206665,
+      "bbox_xyxy": [
+        443.74945068359375,
+        406.5647888183594,
+        485.41192626953125,
+        445.7344055175781
+      ],
+      "matched_plant_ids": [
+        "s00_t00010"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B43/RGB_20251110_b4_1075.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.25057172775268555,
+      "bbox_xyxy": [
+        631.5825805664062,
+        28.0074462890625,
+        656.6679077148438,
+        51.83125305175781
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B43/RGB_20251110_b4_1082.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.4932555556297302,
+      "bbox_xyxy": [
+        643.5938720703125,
+        447.9959716796875,
+        683.2711181640625,
+        490.92425537109375
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B43/RGB_20251110_b4_1087.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.6459587812423706,
+      "bbox_xyxy": [
+        643.93408203125,
+        264.24652099609375,
+        683.3863525390625,
+        305.32373046875
+      ],
+      "matched_plant_ids": [
+        "s00_t00105"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B43/RGB_20251110_b4_1088.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.6769434213638306,
+      "bbox_xyxy": [
+        648.0037231445312,
+        222.7861328125,
+        686.1831665039062,
+        265.01806640625
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B43/RGB_20251110_b4_1090.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.6905642151832581,
+      "bbox_xyxy": [
+        652.15087890625,
+        142.93948364257812,
+        693.497314453125,
+        185.85684204101562
+      ],
+      "matched_plant_ids": [
+        "s00_t00196"
+      ]
+    }
+  ]
+}

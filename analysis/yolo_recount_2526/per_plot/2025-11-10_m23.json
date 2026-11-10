@@ -1,0 +1,44 @@
+{
+  "season": "2526",
+  "date": "2025-11-10",
+  "plot": "m23",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-11-10/m23.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_M23",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 6,
+  "selected_image_count": 3,
+  "missing_images": [],
+  "counts": {
+    "FL": 0,
+    "G": 0,
+    "W": 0,
+    "P": 0,
+    "R": 0
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_M23/RGB_20251110_m2_1018.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.29650551080703735,
+      "bbox_xyxy": [
+        818.8131103515625,
+        589.4185791015625,
+        876.4180908203125,
+        623.4918212890625
+      ],
+      "matched_plant_ids": []
+    }
+  ]
+}

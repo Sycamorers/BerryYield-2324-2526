@@ -1,0 +1,57 @@
+{
+  "season": "2526",
+  "date": "2025-11-03",
+  "plot": "b23",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-11-03/b23.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B23",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 8,
+  "selected_image_count": 8,
+  "missing_images": [],
+  "counts": {
+    "FL": 0,
+    "G": 0,
+    "W": 0,
+    "P": 0,
+    "R": 0
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B23/RGB_20251103_M23_120.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.32985785603523254,
+      "bbox_xyxy": [
+        0.47972869873046875,
+        640.8345336914062,
+        50.63471984863281,
+        719.8870239257812
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B23/RGB_20251103_M23_44.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.31708481907844543,
+      "bbox_xyxy": [
+        371.16015625,
+        9.459857940673828,
+        460.4156494140625,
+        93.33244323730469
+      ],
+      "matched_plant_ids": []
+    }
+  ]
+}

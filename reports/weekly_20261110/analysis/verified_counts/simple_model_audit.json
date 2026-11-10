@@ -1,0 +1,46 @@
+{
+  "scope": "2324 and 2526 healthy plot-dates; 2425 excluded",
+  "task": "predict recorded harvest g/plot nearest to 7, 14 or 21 days after image date (\u00b12 days)",
+  "model_settings": {
+    "Ridge": "StandardScaler fitted to training data, alpha=10",
+    "Random forest": "100 trees, min_samples_leaf=5, max_features=0.8, seed=42"
+  },
+  "within_season_rule": "train only on target harvest dates before the image date; require two completed dates",
+  "input_policy": "Only FL, G, W, P, canopy size and roundness are predictors; R and retained plant-track count are descriptive only",
+  "feature_sets": {
+    "Image": [
+      "canopy_size_pixels",
+      "mean_roundness"
+    ],
+    "Image + manual": [
+      "canopy_size_pixels",
+      "mean_roundness",
+      "manual_FL",
+      "manual_G",
+      "manual_W",
+      "manual_P"
+    ],
+    "Image + YOLO": [
+      "canopy_size_pixels",
+      "mean_roundness",
+      "yolo_FL",
+      "yolo_G",
+      "yolo_W",
+      "yolo_P"
+    ],
+    "YOLO": [
+      "yolo_FL",
+      "yolo_G",
+      "yolo_W",
+      "yolo_P"
+    ]
+  },
+  "sample_rows": {
+    "2324_h1": 278,
+    "2324_h2": 239,
+    "2324_h3": 199,
+    "2526_h1": 240,
+    "2526_h2": 239,
+    "2526_h3": 319
+  }
+}

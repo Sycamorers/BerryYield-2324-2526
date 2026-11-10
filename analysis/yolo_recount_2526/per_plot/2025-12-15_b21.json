@@ -1,0 +1,145 @@
+{
+  "season": "2526",
+  "date": "2025-12-15",
+  "plot": "b21",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-12-15/b21.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B21",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 1,
+  "selected_image_count": 1,
+  "missing_images": [],
+  "counts": {
+    "FL": 0,
+    "G": 1,
+    "W": 0,
+    "P": 1,
+    "R": 3
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B21/RGB_20251215_b2_1073.jpg",
+      "detection_index": 0,
+      "feature": "P",
+      "confidence": 0.7143980860710144,
+      "bbox_xyxy": [
+        722.0887451171875,
+        196.28610229492188,
+        761.6973876953125,
+        233.7735595703125
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B21/RGB_20251215_b2_1073.jpg",
+      "detection_index": 1,
+      "feature": "R",
+      "confidence": 0.6809828281402588,
+      "bbox_xyxy": [
+        621.3748168945312,
+        216.67092895507812,
+        659.1620483398438,
+        259.7535705566406
+      ],
+      "matched_plant_ids": [
+        "s00_t00001"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B21/RGB_20251215_b2_1073.jpg",
+      "detection_index": 2,
+      "feature": "R",
+      "confidence": 0.6389603018760681,
+      "bbox_xyxy": [
+        543.9447021484375,
+        170.74932861328125,
+        585.0257568359375,
+        224.5565185546875
+      ],
+      "matched_plant_ids": [
+        "s00_t00001"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B21/RGB_20251215_b2_1073.jpg",
+      "detection_index": 3,
+      "feature": "R",
+      "confidence": 0.5630823373794556,
+      "bbox_xyxy": [
+        787.735595703125,
+        217.7259063720703,
+        821.850341796875,
+        265.84124755859375
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B21/RGB_20251215_b2_1073.jpg",
+      "detection_index": 4,
+      "feature": "G",
+      "confidence": 0.4094195067882538,
+      "bbox_xyxy": [
+        586.9378662109375,
+        386.80609130859375,
+        614.3017578125,
+        412.81304931640625
+      ],
+      "matched_plant_ids": [
+        "s00_t00001"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B21/RGB_20251215_b2_1073.jpg",
+      "detection_index": 5,
+      "feature": "R",
+      "confidence": 0.4020678997039795,
+      "bbox_xyxy": [
+        638.9398193359375,
+        260.6849365234375,
+        671.0001220703125,
+        292.5546875
+      ],
+      "matched_plant_ids": [
+        "s00_t00001"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B21/RGB_20251215_b2_1073.jpg",
+      "detection_index": 6,
+      "feature": "P",
+      "confidence": 0.36718496680259705,
+      "bbox_xyxy": [
+        638.6468505859375,
+        260.895263671875,
+        671.3548583984375,
+        294.51318359375
+      ],
+      "matched_plant_ids": [
+        "s00_t00001"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B21/RGB_20251215_b2_1073.jpg",
+      "detection_index": 7,
+      "feature": "P",
+      "confidence": 0.33528026938438416,
+      "bbox_xyxy": [
+        787.0758056640625,
+        217.49282836914062,
+        821.2647705078125,
+        265.9697570800781
+      ],
+      "matched_plant_ids": []
+    }
+  ]
+}

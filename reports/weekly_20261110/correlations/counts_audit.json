@@ -1,0 +1,82 @@
+{
+  "seasons": [
+    "2324",
+    "2526"
+  ],
+  "excluded_seasons": [
+    "2425"
+  ],
+  "source_type": "manual field counts in both seasons",
+  "counts_unit": "count per plot per field visit",
+  "mapping": {
+    "FL": "flower",
+    "G": "green",
+    "W": "white",
+    "P": "pink",
+    "R": "red"
+  },
+  "blank_policy": "preserve missing; never replace with zero",
+  "detector_counts_used": false,
+  "rows": {
+    "2324": 320,
+    "2526": 720
+  },
+  "date_counts": {
+    "2324": 8,
+    "2526": 18
+  },
+  "missing_by_season": {
+    "2324": {
+      "flower": 0,
+      "green": 0,
+      "white": 0,
+      "pink": 0,
+      "red": 0
+    },
+    "2526": {
+      "flower": 120,
+      "green": 120,
+      "white": 120,
+      "pink": 120,
+      "red": 121
+    }
+  },
+  "sources": [
+    {
+      "path": "data/real_data/2324_GNV_processed/counting_yield/240108.csv",
+      "sha256": "ddb6c6a84bf658937903d8a03ba40afb69a47579071e81bb9bd9ade0582c5243"
+    },
+    {
+      "path": "data/real_data/2324_GNV_processed/counting_yield/240116.csv",
+      "sha256": "c18094870fb183c97164d0003a743ad144fdc812d514e8aae3a7bdca187c27c1"
+    },
+    {
+      "path": "data/real_data/2324_GNV_processed/counting_yield/240123.csv",
+      "sha256": "283074aa3a2172784650f340dc4fee3828c9fc77cf742fb81f75868bfc56c8ae"
+    },
+    {
+      "path": "data/real_data/2324_GNV_processed/counting_yield/240130.csv",
+      "sha256": "252c5f4ae12232f995043012b35e5502fac31ac667bab51cde35a93f5942ff3e"
+    },
+    {
+      "path": "data/real_data/2324_GNV_processed/counting_yield/240206.csv",
+      "sha256": "2210ea05e4cb0c3239f305842510ed684c31671fe3a0e7611a46a3c004e6330d"
+    },
+    {
+      "path": "data/real_data/2324_GNV_processed/counting_yield/240213.csv",
+      "sha256": "31d9c244d8f0c8e18558e832dfe478573428856a2eff39fe629ab72c405134e9"
+    },
+    {
+      "path": "data/real_data/2324_GNV_processed/counting_yield/240220.csv",
+      "sha256": "a822007fad5ca97f19d0b0b96bb99147900374db64229f4bc1c370a21ff49c6e"
+    },
+    {
+      "path": "data/real_data/2324_GNV_processed/counting_yield/240227.csv",
+      "sha256": "81d8d7f0c7bbc95cc049d7eba0bc03777b24bafa2f5867f79225826d6d965240"
+    },
+    {
+      "path": "check-in & data-col 2526.xlsx",
+      "sha256": "b07c1b6dfaef56eac7dec750f4974df60a46011defe16965629f765eefebd866"
+    }
+  ]
+}

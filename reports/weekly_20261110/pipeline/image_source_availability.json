@@ -1,0 +1,95 @@
+{
+  "/mnt": {
+    "exists": true,
+    "directories": {
+      "/mnt/SB2324": [],
+      "/mnt/BACKUP1": [],
+      "/mnt/temp": [],
+      "/mnt/NJ": []
+    }
+  },
+  "/media": {
+    "exists": true,
+    "directories": {
+      "/media/anna": "PermissionError(13, 'Permission denied')",
+      "/media/abeit": "PermissionError(13, 'Permission denied')",
+      "/media/preag": "PermissionError(13, 'Permission denied')",
+      "/media/jing": [],
+      "/media/USB": [],
+      "/media/USBDISK": []
+    }
+  },
+  "/run/media": {
+    "exists": false,
+    "directories": {}
+  },
+  "data": {
+    "file_counts": {},
+    "examples": {}
+  },
+  "PheMuT/data": {
+    "file_counts": {},
+    "examples": {}
+  },
+  "tmp/25_yield": {
+    "file_counts": {
+      ".png": 253,
+      ".pt": 21,
+      ".jpg": 1327,
+      ".onnx": 4,
+      ".pth": 3
+    },
+    "examples": {
+      ".png": [
+        "tmp/25_yield/yield_forecast_with_history.png",
+        "tmp/25_yield/red_fruit_forecast_with_history.png",
+        "tmp/25_yield/tmp/canopy_area_5x8_forced_B_on_top.png",
+        "tmp/25_yield/tmp/continuous_strawberry_canopy_global.png",
+        "tmp/25_yield/tmp/canopy_area_5x8_forced_B_on_top_noM.png"
+      ],
+      ".pt": [
+        "tmp/25_yield/best.pt",
+        "tmp/25_yield/sam2_hiera_large.pt",
+        "tmp/25_yield/tmp/yolov8n.pt",
+        "tmp/25_yield/tmp/runs/detect/train/weights/last.pt",
+        "tmp/25_yield/tmp/runs/detect/train/weights/best.pt"
+      ],
+      ".jpg": [
+        "tmp/25_yield/tmp/bus.jpg",
+        "tmp/25_yield/tmp/GLPN/depth_02_06_2024_rgb_37.jpg",
+        "tmp/25_yield/tmp/GLPN/depth_02_06_2024_rgb_34.jpg",
+        "tmp/25_yield/tmp/GLPN/depth_02_06_2024_rgb_26.jpg",
+        "tmp/25_yield/tmp/GLPN/depth_02_06_2024_rgb_31.jpg"
+      ],
+      ".onnx": [
+        "tmp/25_yield/tmp/runs/detect/train/weights/best.onnx",
+        "tmp/25_yield/SAMs/EfficientSAM/weights/efficient_sam_vitt_decoder.onnx",
+        "tmp/25_yield/SAMs/EfficientSAM/weights/efficient_sam_vitt.onnx",
+        "tmp/25_yield/SAMs/EfficientSAM/weights/efficient_sam_vitt_encoder.onnx"
+      ],
+      ".pth": [
+        "tmp/25_yield/models_wts/depth_anything_v2_vitl.pth",
+        "tmp/25_yield/models_wts/depth_anything_v2_vits.pth",
+        "tmp/25_yield/models_wts/sam_vit_h_4b8939.pth"
+      ]
+    }
+  },
+  "inference_plant_berries_b13_allplants": {
+    "file_counts": {
+      ".jpg": 51
+    },
+    "examples": {
+      ".jpg": [
+        "inference_plant_berries_b13_allplants/RGB_20250305_b13_63.jpg",
+        "inference_plant_berries_b13_allplants/RGB_20250305_b13_67.jpg",
+        "inference_plant_berries_b13_allplants/RGB_20250305_b13_64.jpg",
+        "inference_plant_berries_b13_allplants/RGB_20250305_b13_66.jpg",
+        "inference_plant_berries_b13_allplants/RGB_20250305_b13_101.jpg"
+      ]
+    }
+  },
+  "canopy_pipeline": {
+    "file_counts": {},
+    "examples": {}
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "season": "2526",
+  "date": "2025-12-15",
+  "plot": "m44",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-12-15/m44.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M44",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 4,
+  "selected_image_count": 4,
+  "missing_images": [],
+  "counts": {
+    "FL": 0,
+    "G": 2,
+    "W": 0,
+    "P": 1,
+    "R": 1
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M44/RGB_20251215_m4_1067.jpg",
+      "detection_index": 0,
+      "feature": "P",
+      "confidence": 0.4152264893054962,
+      "bbox_xyxy": [
+        490.9032287597656,
+        515.656005859375,
+        538.7525634765625,
+        554.556884765625
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M44/RGB_20251215_m4_1071.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.342171311378479,
+      "bbox_xyxy": [
+        468.32843017578125,
+        366.99169921875,
+        518.605224609375,
+        407.000732421875
+      ],
+      "matched_plant_ids": [
+        "s00_t00003"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M44/RGB_20251215_m4_1071.jpg",
+      "detection_index": 1,
+      "feature": "P",
+      "confidence": 0.32122644782066345,
+      "bbox_xyxy": [
+        466.50506591796875,
+        367.333984375,
+        518.2387084960938,
+        406.64532470703125
+      ],
+      "matched_plant_ids": [
+        "s00_t00003"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M44/RGB_20251215_m4_1076.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.6261817812919617,
+      "bbox_xyxy": [
+        440.08795166015625,
+        173.95733642578125,
+        487.84979248046875,
+        221.94546508789062
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M44/RGB_20251215_m4_1076.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.42390772700309753,
+      "bbox_xyxy": [
+        915.1195068359375,
+        305.73858642578125,
+        936.5989990234375,
+        334.93902587890625
+      ],
+      "matched_plant_ids": [
+        "s00_t00005"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M44/RGB_20251215_m4_1081.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.473088800907135,
+      "bbox_xyxy": [
+        410.8879089355469,
+        1.0637130737304688,
+        460.6253967285156,
+        35.614990234375
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M44/RGB_20251215_m4_1081.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.33044376969337463,
+      "bbox_xyxy": [
+        832.7099609375,
+        477.41351318359375,
+        883.55078125,
+        516.0846557617188
+      ],
+      "matched_plant_ids": [
+        "s00_t00009"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_M44/RGB_20251215_m4_1081.jpg",
+      "detection_index": 2,
+      "feature": "G",
+      "confidence": 0.25651419162750244,
+      "bbox_xyxy": [
+        448.5758056640625,
+        49.01551818847656,
+        476.1019287109375,
+        79.60177612304688
+      ],
+      "matched_plant_ids": []
+    }
+  ]
+}

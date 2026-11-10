@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "season": "2526",
+  "date": "2025-12-15",
+  "plot": "b51",
+  "source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B51",
+  "source_frame_count": 22,
+  "source_segment_count": 1,
+  "plant_count": 3,
+  "canopy_size_pixels": 68914,
+  "mean_roundness": 0.41332469948980227,
+  "roundness_definition": "4*pi*mask_area/(full_contour_perimeter^2)",
+  "mask_directory": "/mnt/SB2324/data/GNV/2324_GNV_data/canopy_tracking_sam_masks_3years/2526/2025-12-15/b51",
+  "elapsed_seconds": 0.6432660438586026,
+  "plants": [
+    {
+      "plant_id": "s00_t00003",
+      "segment_index": 0,
+      "raw_track_id": 3,
+      "track_length": 11,
+      "representative_image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B51/RGB_20251215_b5_1118.jpg",
+      "representative_frame_index": 7,
+      "detection_confidence": 0.8237673044204712,
+      "bbox_xyxy": [
+        647.592529296875,
+        261.513427734375,
+        891.1815795898438,
+        504.25775146484375
+      ],
+      "mask_path": "/mnt/SB2324/data/GNV/2324_GNV_data/canopy_tracking_sam_masks_3years/2526/2025-12-15/b51/plant_s00_t00003_frame_000007.png",
+      "canopy_size_pixels": 32089,
+      "perimeter_pixels": 938.4478269815445,
+      "roundness": 0.45787378708873655
+    },
+    {
+      "plant_id": "s00_t00011",
+      "segment_index": 0,
+      "raw_track_id": 11,
+      "track_length": 6,
+      "representative_image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B51/RGB_20251215_b5_1129.jpg",
+      "representative_frame_index": 18,
+      "detection_confidence": 0.806863009929657,
+      "bbox_xyxy": [
+        714.6768798828125,
+        186.20089721679688,
+        884.7719116210938,
+        380.48492431640625
+      ],
+      "mask_path": "/mnt/SB2324/data/GNV/2324_GNV_data/canopy_tracking_sam_masks_3years/2526/2025-12-15/b51/plant_s00_t00011_frame_000018.png",
+      "canopy_size_pixels": 18405,
+      "perimeter_pixels": 759.8965303897858,
+      "roundness": 0.4005315789398538
+    },
+    {
+      "plant_id": "s00_t00001",
+      "segment_index": 0,
+      "raw_track_id": 1,
+      "track_length": 2,
+      "representative_image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251215/RGB_20251215_B51/RGB_20251215_b5_1131.jpg",
+      "representative_frame_index": 20,
+      "detection_confidence": 0.8410320281982422,
+      "bbox_xyxy": [
+        725.5928344726562,
+        284.4174499511719,
+        891.0965576171875,
+        475.5083312988281
+      ],
+      "mask_path": "/mnt/SB2324/data/GNV/2324_GNV_data/canopy_tracking_sam_masks_3years/2526/2025-12-15/b51/plant_s00_t00001_frame_000020.png",
+      "canopy_size_pixels": 18420,
+      "perimeter_pixels": 778.8670928478241,
+      "roundness": 0.3815687324408163
+    }
+  ]
+}

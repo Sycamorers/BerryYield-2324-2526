@@ -1,0 +1,83 @@
+{
+  "season": "2526",
+  "date": "2025-11-03",
+  "plot": "b21",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-11-03/b21.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B21",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 9,
+  "selected_image_count": 9,
+  "missing_images": [],
+  "counts": {
+    "FL": 0,
+    "G": 0,
+    "W": 0,
+    "P": 0,
+    "R": 0
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B21/RGB_20251103_M21_106.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.25833621621131897,
+      "bbox_xyxy": [
+        0.5312232971191406,
+        636.357421875,
+        52.1111946105957,
+        718.857666015625
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B21/RGB_20251103_M21_123.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.33081376552581787,
+      "bbox_xyxy": [
+        0.0,
+        626.367919921875,
+        75.17843627929688,
+        720.0
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B21/RGB_20251103_M21_142.jpg",
+      "detection_index": 0,
+      "feature": "W",
+      "confidence": 0.2903464436531067,
+      "bbox_xyxy": [
+        491.46099853515625,
+        364.96075439453125,
+        540.7810668945312,
+        413.94561767578125
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251103/RGB_20251103_B21/RGB_20251103_M21_84.jpg",
+      "detection_index": 0,
+      "feature": "R",
+      "confidence": 0.4250977635383606,
+      "bbox_xyxy": [
+        0.0,
+        630.4061279296875,
+        81.81146240234375,
+        720.0
+      ],
+      "matched_plant_ids": []
+    }
+  ]
+}

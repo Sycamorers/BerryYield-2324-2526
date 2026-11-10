@@ -1,0 +1,143 @@
+{
+  "season": "2526",
+  "date": "2025-11-10",
+  "plot": "b41",
+  "status": "complete",
+  "canopy_record": "/home/jing/Desktop/projects/berryYield/canopy_pipeline/final_results/per_plot/2526/2025-11-10/b41.json",
+  "rgb_source_directory": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B41",
+  "model_sha256": "2ff6e325f6b4393e08ba31110df773e93776cff2a79ccb1fb54dd780e3818a05",
+  "model_classes": {
+    "0": "FL",
+    "1": "G",
+    "2": "W",
+    "3": "P",
+    "4": "R"
+  },
+  "confidence_threshold": 0.25,
+  "image_size": 640,
+  "count_rule": "one count per detection overlapping each representative plant box",
+  "plant_count": 21,
+  "selected_image_count": 8,
+  "missing_images": [],
+  "counts": {
+    "FL": 0,
+    "G": 1,
+    "W": 3,
+    "P": 0,
+    "R": 0
+  },
+  "detections": [
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B41/RGB_20251110_b4_706.jpg",
+      "detection_index": 0,
+      "feature": "W",
+      "confidence": 0.4519977271556854,
+      "bbox_xyxy": [
+        603.510498046875,
+        405.125244140625,
+        651.5677490234375,
+        457.460693359375
+      ],
+      "matched_plant_ids": [
+        "s00_t00005"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B41/RGB_20251110_b4_707.jpg",
+      "detection_index": 0,
+      "feature": "W",
+      "confidence": 0.3326668441295624,
+      "bbox_xyxy": [
+        603.913330078125,
+        368.42529296875,
+        653.456787109375,
+        420.81610107421875
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B41/RGB_20251110_b4_709.jpg",
+      "detection_index": 0,
+      "feature": "W",
+      "confidence": 0.3475611209869385,
+      "bbox_xyxy": [
+        611.081787109375,
+        293.1919860839844,
+        658.966796875,
+        347.8316955566406
+      ],
+      "matched_plant_ids": [
+        "s00_t00030"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B41/RGB_20251110_b4_709.jpg",
+      "detection_index": 1,
+      "feature": "G",
+      "confidence": 0.31247591972351074,
+      "bbox_xyxy": [
+        480.84576416015625,
+        80.89098358154297,
+        534.6930541992188,
+        131.53753662109375
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B41/RGB_20251110_b4_718.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.48741772770881653,
+      "bbox_xyxy": [
+        362.8201904296875,
+        280.09161376953125,
+        396.9144287109375,
+        315.17364501953125
+      ],
+      "matched_plant_ids": [
+        "s00_t00080"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B41/RGB_20251110_b4_718.jpg",
+      "detection_index": 1,
+      "feature": "W",
+      "confidence": 0.2629465162754059,
+      "bbox_xyxy": [
+        386.9942321777344,
+        172.937744140625,
+        420.0096740722656,
+        208.784423828125
+      ],
+      "matched_plant_ids": [
+        "s00_t00080"
+      ]
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B41/RGB_20251110_b4_720.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.34316781163215637,
+      "bbox_xyxy": [
+        363.5802001953125,
+        197.00454711914062,
+        400.8564453125,
+        235.2275390625
+      ],
+      "matched_plant_ids": []
+    },
+    {
+      "image": "/mnt/SB2324/data/GNV/2526_GNV_data/2D_data/251110/RGB_20251110_B41/RGB_20251110_b4_722.jpg",
+      "detection_index": 0,
+      "feature": "G",
+      "confidence": 0.38404232263565063,
+      "bbox_xyxy": [
+        364.46795654296875,
+        117.83660888671875,
+        401.61151123046875,
+        159.35260009765625
+      ],
+      "matched_plant_ids": []
+    }
+  ]
+}

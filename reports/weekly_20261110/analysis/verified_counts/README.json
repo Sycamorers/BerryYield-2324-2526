@@ -1,0 +1,68 @@
+{
+  "seasons": [
+    "2324",
+    "2526"
+  ],
+  "date_rule": "Keep whole dates only when image, manual and YOLO each cover >=32/40 plots and median plant tracks <=2x planted count; drop incomplete plot rows thereafter.",
+  "source_2324_yolo": "data/real_data/2324_GNV_processed/*/consolidated_summary_with_yield.csv",
+  "source_2526_yolo": "analysis/yolo_recount_2526/yolo_counts_2526.csv; derived from raw RGB images and canopy representative plant boxes",
+  "source_manual": "2324 counting_yield CSV; 2526 check-in & data-col 2526.xlsx",
+  "prediction_features": [
+    "FL",
+    "G",
+    "W",
+    "P",
+    "canopy_size_pixels",
+    "mean_roundness"
+  ],
+  "descriptive_only": [
+    "R (mature red fruit)",
+    "plant_count (retained tracks)"
+  ],
+  "healthy_rows": {
+    "2324": 318,
+    "2526": 439
+  },
+  "excluded_dates": [
+    {
+      "season": "2324",
+      "date": "2024-03-05",
+      "reason": "manual counts available for fewer than 32/40 plots; YOLO counts available for fewer than 32/40 plots"
+    },
+    {
+      "season": "2526",
+      "date": "2025-11-24",
+      "reason": "image features available for fewer than 32/40 plots; manual counts available for fewer than 32/40 plots; YOLO counts available for fewer than 32/40 plots"
+    },
+    {
+      "season": "2526",
+      "date": "2026-01-05",
+      "reason": "image features available for fewer than 32/40 plots; manual counts available for fewer than 32/40 plots; YOLO counts available for fewer than 32/40 plots"
+    },
+    {
+      "season": "2526",
+      "date": "2026-01-12",
+      "reason": "image features available for fewer than 32/40 plots; YOLO counts available for fewer than 32/40 plots"
+    },
+    {
+      "season": "2526",
+      "date": "2026-02-02",
+      "reason": "image features available for fewer than 32/40 plots; manual counts available for fewer than 32/40 plots; YOLO counts available for fewer than 32/40 plots"
+    },
+    {
+      "season": "2526",
+      "date": "2026-02-23",
+      "reason": "median retained tracks exceeds twice planted count"
+    },
+    {
+      "season": "2526",
+      "date": "2026-03-02",
+      "reason": "image features available for fewer than 32/40 plots; YOLO counts available for fewer than 32/40 plots"
+    },
+    {
+      "season": "2526",
+      "date": "2026-03-09",
+      "reason": "image features available for fewer than 32/40 plots; YOLO counts available for fewer than 32/40 plots"
+    }
+  ]
+}

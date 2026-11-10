@@ -1,0 +1,9 @@
+{
+  "portable_image_recount": "passed: 2025-11-03 B11 rerun from packaged data/GNV images",
+  "portable_dataset_build": "passed: 2324 318 healthy rows; 2526 439 healthy rows",
+  "portable_simple_model": "passed: 88 metric rows with only Ridge and random forest; input features limited to FL/G/W/P, canopy and roundness",
+  "full_model_comparison": "passed: 1,584 primary metric rows and 792 paired manual-versus-YOLO rows across 12 predictive models; identical test IDs, targets and harvest dates",
+  "count_independent_inputs": "passed: maximum manual-versus-YOLO MAE difference 0.0 for canopy-only, roundness-only and canopy-with-roundness input sets",
+  "report_copy": "passed: packaged final PDF SHA-256 equals project final PDF",
+  "report_figure_aspect_ratios": "passed: all six new figures match their source image aspect ratios within 0.00001"
+}
